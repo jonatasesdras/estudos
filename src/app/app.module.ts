@@ -13,6 +13,8 @@ import { InputPropertyComponent } from './aula-13/input-property/input-property.
 import { Aula14Component } from './aula-14/aula-14.component';
 import { OutputPropertyComponent } from './aula-14/output-property/output-property.component';
 import { Aula15CicloDeVidaComponent } from './aula-15-ciclo-de-vida/aula-15-ciclo-de-vida.component';
+import { Aula16Component } from './aula-16/aula-16.component';
+import { OutPutComponent } from './aula-16/out-put/out-put.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { Aula15CicloDeVidaComponent } from './aula-15-ciclo-de-vida/aula-15-cicl
     InputPropertyComponent,
     Aula14Component,
     OutputPropertyComponent,
-    Aula15CicloDeVidaComponent
+    Aula15CicloDeVidaComponent,
+    Aula16Component,
+    OutPutComponent
   ],
   imports: [
     BrowserModule,
